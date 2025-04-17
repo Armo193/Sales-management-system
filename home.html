@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planet Victoria Limited</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="black-theme">
+        <nav>
+            <div class="Logo">
+                <img class="Logo-image" src="images/logo.jpg"></a>
+                <class=""><h2>Planet Victoria</h2>
+            </div>
+            <ul class="nav-links">
+                <li class="dropdown">
+                    <a href="#"><i class="fas fa-code-branch"></i> Branches <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#"><i class="fas fa-plus-circle"></i> Create New Branch</a></li>
+                        <li><a href="#"><i class="fas fa-users"></i> Officers</a></li>
+                    </ul>
+                </li>
+                <li><a href="Sales_products/index.php"><i class="fas fa-info-circle"></i> Sales</a></li>
+                <li><a href="#"><i class="fas fa-info-circle"></i>Loans</a></li>
+                <li><a href="aboutUs.html"><i class="fas fa-info-circle"></i> About Us</a></li>
+                <li><a href="contuctUs.html"><i class="fas fa-envelope"></i> Contact Us</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="black-theme">
+        <section class="hero">
+            <h1>Welcome to Our Planet victoria online web platform.</h1>
+            <p>Your complete solution for branch management</p>
+        </section>
+    </main>
+
+    <footer class="black-theme">
+        <p>&copy; 2023 Planet Victoria. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.querySelector('.hamburger').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

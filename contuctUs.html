@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CONTACT US</title>
+</head>
+<body>
+    <div class="home-button">
+        <a href="Home.html" class="btn-home">Home</a>
+    </div>
+    <div class="container">
+        <h1>Connect With Us</h1>
+        <p>We would love to respond to your queries and help you succeed in your search for products. Feel free to get in touch with us.</p>
+        <div class="contact-box"> 
+            <div class="contact-left">
+                <h3>Send your request</h3>
+
+                <!-- Form action updated to point to your own PHP script -->
+                <form action="contactpage.php" method="POST">
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label>Name</label>
+                            <input type="text" name="name" placeholder="Erick O..." required>
+                        </div>
+                        <div class="input-group">
+                            <label>Phone</label>
+                            <input type="text" name="phone" placeholder="+254 717643170" required>
+                        </div>
+                    </div>
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label>Email</label>
+                            <input type="email" name="email" placeholder="mcagango@gmail.com" required>
+                        </div>
+                        <div class="input-group">
+                            <label>Subject</label>
+                            <input type="text" name="subject" placeholder="Product Enquiry" required>
+                        </div>
+                    </div>
+                
+                    <label>Message</label>
+                    <textarea rows="5" name="message" placeholder="Your Message Here" required></textarea>
+                    <button type="submit">SEND</button>
+                </form>
+                
+
+            </div>
+            <div class="contact-right">
+                <h3>Reach Us</h3>
+
+                <table>
+                    <tr>
+                        <td>Email</td>
+                        <td>mcagango@gmail.com<br>
+                            https://planetvictoria.com/</td>
+                    </tr>
+                    <tr>
+                        <td>Phone</td>
+                        <td>+254 717643170<br>
+                            +254 7........</td>
+                    </tr>
+                    <tr>
+                        <td>Address</td>
+                        <td>Migori County' Kisii-Isebania Road<br>
+                            Building L/R<br>
+                            No: 209/2823<br>
+                            P.O.BOX 1.... - 4000 <br>
+                            Sare-Awendo.
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <footer class="text-center">
+        <p>Copyright &copy; 2025 All rights reserved by Planetvictoria.</p>
+    </footer>
+</body>
+</html>
